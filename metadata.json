@@ -1,0 +1,8 @@
+{
+  "name": "Remix BeamSolver — Structural Analysis \u0026 Solution Manual",
+  "description": "Exact rational structural beam solver supporting static equilibrium, Clapeyron\u0027s Three-Moment Equation, Macaulay\u0027s method, Virtual Work, and Conjugate Beam analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

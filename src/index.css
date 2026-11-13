@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-canvas: #121316;
+  --color-panel: #18191d;
+  --color-card: #1e2025;
+  --color-borderDark: #2c2f36;
+}
+
+body {
+  background-color: #121316;
+  color: #f3f4f6;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.katex-display {
+  margin: 0.45em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.15rem 0;
+}
+
+.math-box {
+  background-color: #15171b;
+  border: 1px solid #282b33;
+  border-radius: 0.65rem;
+  padding: 0.95rem 1.2rem;
+  overflow-x: auto;
+}
+
+.eq-box .katex {
+  font-size: 1.03em;
+}
+
+.parts-table .katex {
+  font-size: 1.12em;
+}
+
+.res-tab-btn {
+  position: relative;
+  padding: 0.65rem 1.1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #9ca3af;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+}
+
+.res-tab-btn:hover {
+  color: #e5e7eb;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.res-tab-btn.active {
+  color: #ffffff;
+  background-color: #24272d;
+  border-bottom: 2px solid #ffffff;
+}
+
+.defl-method-pill {
+  transition: all 0.15s ease;
+}
+
+.defl-method-pill.active {
+  background-color: rgba(16, 185, 129, 0.15);
+  border-color: #10b981;
+  color: #34d399;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141519;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e323b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #434956;
+}
